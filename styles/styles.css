@@ -86,6 +86,12 @@ header{
     line-height: 53px;
     color: #131313;
 }
+.constraction-tittle{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
 
 /* nav styles */
 nav{
@@ -344,10 +350,10 @@ nav{
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 150px;
 }
 .sponspors-content{
     width: 542px;
-    margin-top: 180px;
     text-align: center;
     /* border: 1px solid red; */
 }
@@ -375,6 +381,57 @@ nav{
     filter: grayscale(100%);
   }
 
+
+      /* construction styles */
+      .constraction-main-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .constraction-content{
+        display: flex;
+        width: 1400px;
+        text-align: center;
+        gap: 200px;
+    }
+.constraction{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 10px;
+}
+.constraction-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 5px;
+}
+
+.motivation-content{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-left: -19px;
+    padding: 15px;
+}
+.motivation{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+   
+}
+.companry-slogan{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 5px;
+}
+
+
   /* footer styles*/
     footer{
        display: flex;
@@ -396,10 +453,11 @@ nav{
     text-align: center;
     color: #424242;
     padding-top: 39px;
-    padding-bottom: 38px;
+    padding-bottom: 35px;
     }
 
-    
+
+
     /* button animation */
     .animated:hover{
         cursor: pointer;
