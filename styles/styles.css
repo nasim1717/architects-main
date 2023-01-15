@@ -29,20 +29,7 @@ header{
     border-radius: 8px;
     border: none;
 }
-/* .btn-secondary{
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 70px;
-    text-align: center;
-    color: #FFFFFF;
-    background: #FF900E;
-    border: none;
-    border-radius: 5px;
-}
-.btn-secondary span{
-    font-size: 14px;
-} */
-/* all tittles */
+
 .nav-left-tittle{
     font-weight: 700;
     font-size: 45px;
@@ -85,6 +72,12 @@ header{
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
+    color: #131313;
+}
+.facts-tittle{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
     color: #131313;
 }
 
@@ -259,8 +252,8 @@ nav{
 }
 .features-button{
     position: absolute;
-    bottom: 55px;
-    left: -35px;
+    bottom: 60px;
+    left: -40px;
     width: 258px;
     height: 140px;
     font-weight: 500;
@@ -275,6 +268,32 @@ nav{
 .features-button h1{
     padding-top: 27px;
 }
+
+/* facts-styles */
+.facts-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.facts-main-content{
+    width: 1435px;
+    /* border: 1px solid red; */
+}
+.facts-content{
+    width: 550px;
+    margin-left: 55px;
+    
+}
+.facts-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+
 /* mobile devices */
 
 @media only screen and (max-width: 768px) {
@@ -328,8 +347,22 @@ nav{
         position: relative;
     }
     .features-button{
-        position: absolute;
-        bottom: 55px;
-        right: 0;
+        position: absolute; 
+         bottom: -190px;
+        margin-left: 89px;
+    }
+    .facts-section{
+        margin-top: 210px;
+    }
+    .facts-content{
+        width: 100%;
+        margin-left: 0;
+    }
+    .facts-tittle{
+        text-align: center;
+    }
+    .facts-description{
+        text-align: center;
+        padding: 5px;
     }
 } 
