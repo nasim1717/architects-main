@@ -293,6 +293,46 @@ nav{
     margin-top: 24px;
 }
 
+/* chekign button style */
+.cheking-main-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.cheking-button{
+    display: flex;
+    gap: 124.17px;
+}
+.buttons{
+    width: 230px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+}
+
+.button{
+    text-align: center;
+}
+.button img{
+    margin-top: 45px;
+}
+.button .score{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+}
+.button .butto-name{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+
+}
+
 
 /* mobile devices */
 
@@ -364,5 +404,9 @@ nav{
     .facts-description{
         text-align: center;
         padding: 5px;
+    }
+    .cheking-button{
+        flex-direction: column;
+        gap: 75.17px;
     }
 } 
