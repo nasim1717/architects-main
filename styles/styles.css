@@ -357,9 +357,23 @@ nav{
     font-size: 16px;
     line-height: 26px;
     color: #727272;
-
+}
+/* sponser company */
+.sponser-main-company-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
+.sponser-company{
+    display: flex;
+    gap: 137px;
+}
+.sponser-company img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
 
 /* mobile devices */
 
@@ -438,5 +452,9 @@ nav{
     }
     .sponspors-description{
         padding: 10px;
+    }
+    .sponser-company{
+        flex-direction: column;
+        gap: 72px;
     }
 } 
