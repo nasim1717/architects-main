@@ -398,6 +398,21 @@ nav{
     padding-bottom: 38px;
     }
 
+    /* button animation */
+    .animated:hover{
+        cursor: pointer;
+        animation: animated 5s linear infinite; 
+    }
+
+    @keyframes animated {
+        0%{
+            transform: rotateY(0deg);
+        }
+        100%{
+            transform: rotateY(360deg);
+        }
+    }
+
 /* mobile devices */
 
 @media only screen and (max-width: 768px) {
