@@ -503,7 +503,7 @@ nav{
         margin-right: 10px;
     }
     .header-img{
-       width: 300px;
+       width: 95%;
        height: 200px;
        padding: 15px;
     }
@@ -556,6 +556,9 @@ nav{
     .sponser-company{
         flex-direction: column;
         gap: 72px;
+    }
+    .constraction-content{
+        flex-direction: column;
     }
     footer{
         margin-top: 95px;
