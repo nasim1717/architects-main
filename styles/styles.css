@@ -399,6 +399,7 @@ nav{
     padding-bottom: 38px;
     }
 
+    
     /* button animation */
     .animated:hover{
         cursor: pointer;
@@ -413,6 +414,8 @@ nav{
             transform: rotateY(360deg);
         }
     }
+
+
 
 /* mobile devices */
 
