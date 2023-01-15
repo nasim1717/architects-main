@@ -80,6 +80,12 @@ header{
     line-height: 53px;
     color: #131313;
 }
+.sponspors-tittle{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
 
 /* nav styles */
 nav{
@@ -333,6 +339,27 @@ nav{
 
 }
 
+/* sponser styels */
+.sponspors-main-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.sponspors-content{
+    width: 542px;
+    margin-top: 180px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.sponspors-description{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
 
 /* mobile devices */
 
@@ -408,5 +435,8 @@ nav{
     .cheking-button{
         flex-direction: column;
         gap: 75.17px;
+    }
+    .sponspors-description{
+        padding: 10px;
     }
 } 
